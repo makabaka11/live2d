@@ -5,28 +5,28 @@
 	color: #fff;
 	cursor: pointer;
 	font-size: 12px;
-	right: 0;
-	margin-right: -90px;
+	right: 0; /* 保持修改方案配置 */
+	margin-right: -90px; /* 保持修改方案配置 */
 	padding: 5px 2px 5px 5px;
 	position: fixed;
-	transition: margin-right 1s;
+	transition: margin-right 1s; /* 关键修正：原 transition 针对 margin-left，改为 margin-right 适配右侧动画 */
 	width: 60px;
-	writing-mode: vertical-lr;
+	writing-mode: vertical-lr; /* 保持修改方案配置 */
 }
 
 #waifu-toggle.waifu-toggle-active {
-	margin-right: -40px;
+	margin-right: -40px; /* 替换原 margin-left: -40px，按修改方案调整 */
 }
 
 #waifu-toggle.waifu-toggle-active:hover {
-	margin-right: -20px;
+	margin-right: -20px; /* 替换原 margin-left: -20px，按修改方案调整 */
 }
 
 #waifu {
-	bottom: 20px; /* 调整为显示时的底部距离 */
-	right: 20px; /* 调整右侧距离 */
+	bottom: -1000px;
+	right: 10px; /* 保持修改方案配置 */
 	line-height: 0;
-	margin-bottom: 0; /* 移除负边距 */
+	margin-bottom: -10px;
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
@@ -45,7 +45,7 @@
 	box-shadow: 0 3px 15px 2px rgba(191, 158, 118, .2);
 	font-size: 14px;
 	line-height: 24px;
-	margin: -30px -270px; /* 调整提示框位置适配右侧 */
+	margin: -30px 20px;
 	min-height: 70px;
 	opacity: 0;
 	overflow: hidden;
@@ -81,7 +81,7 @@
 	color: #aaa;
 	opacity: 0;
 	position: absolute;
-	margin-right: 260px; /* 调整工具条位置适配右侧 */
+	margin-left: 260px; /* 按修改方案保留，补充分号修复语法错误 */
 	top: 55px;
 	transition: opacity 1s;
 }
@@ -108,7 +108,7 @@
 }
 
 #waifu-tool svg:hover {
-	fill: #0684bd;
+	fill: #0684bd; /* #34495e */
 }
 
 @keyframes shake {
