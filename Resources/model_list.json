@@ -1,6 +1,6 @@
 {
     "models": [
-        ["zimiao-zhengchang", "zimiao-maoer"]
+        ["zimiaozhengchang", "zimiaomaoer"]
     ],
     "messages": [
         ["你好，我是来自放学后茶会的吉他手阿梓喵~", "你好，我是来自放学后茶会的吉他手阿梓喵（猫耳）"]
