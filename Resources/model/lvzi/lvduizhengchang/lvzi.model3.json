@@ -1,0 +1,18 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "lvzi.moc3",
+		"Textures": [
+			"lvzi.1024/texture_00.webp"
+		],
+		"Physics": "lvzi.physics3.json",
+		"DisplayInfo": "lvzi.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

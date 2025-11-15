@@ -1,8 +1,18 @@
 {
     "models": [
-        ["zimiaozhengchang", "zimiaomaoer"]
+        ["zimiao/zimiaozhengchang", "zimiao/zimiaomaoer"],
+        ["MIO"],
+        ["UI-1"],
+        ["chouchou/chouchouzhengchang","chouchou/chouchoudoudouyan"],
+        ["lvzi/lvduizhengchang","lvzi/lvduibiyan"],
+        ["xiaozuohe"]
     ],
     "messages": [
-        ["你好，我是来自放学后茶会的吉他手阿梓喵~", "你好，我是来自放学后茶会的吉他手阿梓喵（猫耳）"]
+        ["你好，我是来自放学后茶会的吉他手阿梓喵~","你好，我是来自放学后茶会的吉他手阿梓喵（猫耳）"],
+        ["你好，我是来自放学后茶会的贝斯手秋山澪"],
+        ["你好，我是平泽唯的妹妹平泽忧"],
+        ["你好，我是来自放学后茶会的键盘手琴吹䌷","你好，我是来自放学后茶会的键盘手琴吹䌷"],
+        ["你好，我是来自放学后茶会的鼓手兼队长田井中律","你好，我是来自放学后茶会的鼓手兼队长田井中律"],
+        ["你好，我是放学后茶会的音乐顾问兼班主任小佐和"]
     ]
 }

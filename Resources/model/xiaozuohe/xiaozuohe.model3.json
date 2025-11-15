@@ -1,0 +1,18 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "xiaozuohe.moc3",
+		"Textures": [
+			"xiaozuohe.1024/texture_00.webp"
+		],
+		"Physics": "xiaozuohe.physics3.json",
+		"DisplayInfo": "xiaozuohe.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
